@@ -1,0 +1,28 @@
+.modal-btn {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 4px;
+  border-color: transparent;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  background: var(--color-button);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background var(--transition-duration-and-func),
+    box-shadow var(--transition-duration-and-func),
+    border-radius var(--transition-duration-and-func);
+
+  color: var(--primary-text-color-theme-dark);
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: var(--color-button-accent);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+}
